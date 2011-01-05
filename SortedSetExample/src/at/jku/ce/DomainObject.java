@@ -10,6 +10,11 @@ public class DomainObject {
 	private String name;
 
 	
+<<<<<<< HEAD
+=======
+	public String Uuid;
+	private String name;	
+>>>>>>> 1bc1647f629aa63c193d4f73e2140068a577ba77
 	
 	public DomainObject() {
 		super();
@@ -19,7 +24,7 @@ public class DomainObject {
 		super(); this.id = id; 
 	}
 
-	public String getId() {
+	public String getUuId() {
  		return id; 
 	}
 }
