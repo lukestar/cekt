@@ -11,4 +11,8 @@ public class DomainObject {
 	public DomainObject(String id) {
 		super(); this.id = id; 
 	}
+
+	public String getId() {
+ 		return id; 
+	}
 }
