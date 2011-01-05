@@ -4,7 +4,7 @@ public class DomainObject {
 
 /** * Default constructor */
 	
-	public String id;
+	public String Uuid;
 	private String name;	
 	
 	public DomainObject() {
@@ -15,7 +15,7 @@ public class DomainObject {
 		super(); this.id = id; 
 	}
 
-	public String getId() {
+	public String getUuId() {
  		return id; 
 	}
 }
