@@ -14,7 +14,7 @@ public class DomainObject {
 		super();
 	}
 	
-public DomainObject(String name, String comment) {
+	public DomainObject(String name, String comment) {
 		super(); this.id = id; 
 	}
 
@@ -33,6 +33,11 @@ public DomainObject(String name, String comment) {
 	public String getName() { 
 		return name; 
 	} 
+
+
+	public String toString() { 
+	return "DomainObject [name=" + name + ", comment=" + comment + ", uuid=" + uuid + "]"; 
+	}
 	
 	public void setName(final String name) { 
 		this.name = name; 
